@@ -1,117 +1,90 @@
-# Modern Tic Tac Toe
+# TicTacGlow 🎮✨
 
-A beautifully designed, feature-rich implementation of the classic Tic Tac Toe game built with React and TypeScript. This project showcases modern web development practices, engaging UI/UX design, and intelligent gameplay features.
-
-![Tic Tac Toe Game](screenshot.png)
+A modern, animated take on the classic Tic-tac-toe game, built with React, TypeScript, and Vite. Features a glowing aesthetic, smooth animations, and a responsive design.
 
 ## ✨ Features
 
-### 🎮 Game Modes
-- Player vs Player
-- Player vs AI with multiple difficulty levels:
-  - Easy: Random moves
-  - Medium: Smart moves with 70% accuracy
-  - Hard: Unbeatable AI using minimax algorithm
+- 🎯 Classic Tic-tac-toe gameplay
+- 🎨 Modern UI with glowing effects and animations
+- 📊 Score tracking system
+- 🔄 Game history with move tracking
+- 🎉 Victory celebration with animated confetti
+- 📱 Responsive design for all devices
+- 🎮 Two-player gameplay
+- 🏆 Win detection and game state management
 
-### 🎨 Visual Design
-- Multiple theme options:
-  - Default: Modern minimalist
-  - Neon: Vibrant cyberpunk style
-  - Retro: Classic arcade feel
-  - Cosmic: Space-inspired design
-- Smooth animations and transitions
-- Responsive layout for all devices
-- Victory celebrations with confetti
-- Dynamic color gradients
+## 🚀 Tech Stack
 
-### 🎵 Audio & Visual Feedback
-- Move sound effects
-- Victory/Draw sound effects
-- Sound toggle option
-- Visual feedback for moves
-- Winning line animations
-
-### 📊 Game Features
-- Player name customization
-- Score tracking
-- Game history
-- Persistent storage for player names and scores
-- Real-time game status updates
-
-### 💫 Animations
-- Winning line highlight
-- Score change animations
-- Confetti on victory
-- Button hover effects
-- Smooth transitions
-
-## 🛠️ Technologies Used
-
-- React 18
+- React 19
 - TypeScript
-- Vite
-- CSS3 with modern features:
-  - Flexbox/Grid
-  - CSS Variables
-  - Animations
-  - Gradients
-  - Glass morphism effects
-- Local Storage for data persistence
-- Responsive Design
-- Modern JavaScript features
+- Vite 6
+- Vitest for testing
+- CSS3 with modern animations
 
-## 🚀 Getting Started
+## 🛠️ Project Structure
+
+```
+src/
+├── components/     # React components
+├── styles/        # CSS styles
+├── utils/         # Utility functions
+├── hooks/         # Custom React hooks
+├── types/         # TypeScript types
+├── tests/         # Test files
+└── constants/     # Constants and configuration
+```
+
+## 🏃‍♂️ Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/tic-tac-toe.git
+   git clone https://github.com/bugracinbat/TicTacGlow.git
+   cd TicTacGlow
    ```
 
 2. Install dependencies:
    ```bash
-   cd tic-tac-toe
    npm install
    ```
 
-3. Run the development server:
+3. Start the development server:
    ```bash
    npm run dev
    ```
 
 4. Open [http://localhost:5173](http://localhost:5173) in your browser
 
-## 🎯 Project Structure
+## 🧪 Running Tests
 
+```bash
+# Run tests in watch mode
+npm test
+
+# Run tests with coverage
+npm run test:coverage
+
+# Run tests with UI
+npm run test:ui
 ```
-src/
-├── components/
-│   ├── Board.tsx     # Game board component
-│   ├── Confetti.tsx  # Victory celebration effects
-│   └── Game.tsx      # Main game logic
-├── styles/
-│   └── App.css       # Global styles and themes
-├── App.tsx           # Root component
-└── main.tsx         # Entry point
-```
 
-## 🎨 Features Showcase
+## 🎮 How to Play
 
-### Themes
-- Default: Clean, modern interface with subtle gradients
-- Neon: Vibrant colors with glow effects
-- Retro: Pixelated style with classic game feel
-- Cosmic: Space-themed with stellar effects
+1. The game is played on a 3x3 grid
+2. Players take turns placing X's and O's
+3. First player to get 3 in a row (horizontally, vertically, or diagonally) wins
+4. If no player gets 3 in a row and the board is full, the game is a draw
+5. Use the "Play Again" button to start a new game
+6. Track your wins in the score board
+7. Use the move history to review or revert to previous game states
 
-### AI Difficulty Levels
-- Easy: Perfect for beginners
-- Medium: Balanced challenge
-- Hard: Implements minimax algorithm for unbeatable gameplay
+## 🎨 Styling and Animations
 
-### Responsive Design
-- Mobile-first approach
-- Landscape mode optimization
-- Tablet and desktop layouts
-- Touch-friendly controls
+The game features:
+- Gradient backgrounds with dynamic color shifts
+- Glowing effects on interactive elements
+- Smooth transitions and hover effects
+- Celebratory confetti animation on winning
+- Responsive layout that works on all screen sizes
 
 ## 🤝 Contributing
 
@@ -119,15 +92,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open source and available under the [MIT License](LICENSE).
 
-## 🙋‍♂️ Author
+## 👏 Acknowledgments
 
-Your Name
-- GitHub: [@bugracinbat](https://github.com/bugracinbat)
-
-## 🌟 Acknowledgments
-
-- Inspired by classic arcade games
+- Built with React and TypeScript
+- Inspired by the classic Tic-tac-toe game
 - Modern UI/UX principles
-- React community best practices
+- Community feedback and contributions
